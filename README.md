@@ -6,15 +6,21 @@ Welcome to the next most hot gem in the world! It was built on the top of [XboxL
 
 Add this line to your application's Gemfile:
 
+```ruby
     gem 'xbox-live'
+```
 
 And then execute:
 
+```ruby
     $ bundle
+```
 
 Or install it yourself as:
 
+```ruby
     $ gem install xbox-live
+```
 
 ## Usage
 
