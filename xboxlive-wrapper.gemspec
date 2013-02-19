@@ -16,5 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = Xboxlive::Wrapper::VERSION
 
   gem.add_runtime_dependency("faraday")
+  gem.add_runtime_dependency("multi_json")
   gem.add_development_dependency("rspec")
 end
