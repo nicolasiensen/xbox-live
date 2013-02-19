@@ -1,5 +1,6 @@
 require "xbox-live/version"
 require "multi_json"
+require "faraday"
 
 module XboxLive
   def self.profile gamertag
