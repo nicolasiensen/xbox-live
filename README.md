@@ -12,20 +12,17 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-```ruby
     $ bundle
-```
 
 Or install it yourself as:
 
-```ruby
     $ gem install xbox-live
-```
 
 ## Usage
 
 Retrieving a profile data:
 
+```ruby
 	XboxLive.profile("nicolasjensen")
 	# Returns a hash like:
 	{
@@ -59,9 +56,11 @@ Retrieving a profile data:
   		"Authed": "false",
   		"AuthedAs": null
 	}
+```
 
 Retrieving somebody's games
 
+```ruby
 	XboxLive.games("nicolasjensen")
 	# Returns a hash like:
 	{
@@ -108,9 +107,11 @@ Retrieving somebody's games
   		"Authed": "false",
   		"AuthedAs": null
 	}
+```
 	
 Retrieving somebody's achievements
 
+```ruby
 	# XboxLive.achievements(gamertag, title_id)
 	XboxLive.achievements("nicolasjensen", "1161890128")
 
@@ -157,9 +158,11 @@ Retrieving somebody's achievements
   		"Authed": "false",
   		"AuthedAs": null
 	}
+```
 	
 Retriving somebody's friends
 
+```ruby
 	XboxLive.friends("nicolasjensen")
 	
 	# Returns a hash like:
@@ -208,6 +211,7 @@ Retriving somebody's friends
   		"Authed": "false",
   		"AuthedAs": null
 	}
+```
 
 ## Contributing
 
