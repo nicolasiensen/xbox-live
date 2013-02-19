@@ -1,4 +1,4 @@
-require "xboxlive-wrapper/version"
+require "xbox-live/version"
 require "multi_json"
 
 module XboxLive

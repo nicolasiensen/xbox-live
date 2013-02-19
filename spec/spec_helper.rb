@@ -5,7 +5,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require 'xboxlive-wrapper'
+require 'xbox-live'
 require 'faraday'
 
 RSpec.configure do |config|

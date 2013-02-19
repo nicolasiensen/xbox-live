@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/xboxlive-wrapper/version', __FILE__)
+require File.expand_path('../lib/xbox-live/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Nícolas Iensen"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "xboxlive-wrapper"
+  gem.name          = "xbox-live"
   gem.require_paths = ["lib"]
   gem.version       = Xboxlive::Wrapper::VERSION
 
