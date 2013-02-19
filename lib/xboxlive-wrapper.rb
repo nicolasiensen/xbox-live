@@ -5,4 +5,8 @@ module XboxLive
   def self.profile gamertag
     MultiJson.load(Faraday.get("http://www.xboxleaders.com/api/profile.json?gamertag=#{gamertag}").body)
   end
+
+  def self.games gamertag
+    MultiJson.load(Faraday.get("http://www.xboxleaders.com/api/games.json?gamertag=#{gamertag}").body)
+  end
 end
