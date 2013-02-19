@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Retrieving a profile data:
+### Profile
 
 ```ruby
 XboxLive.profile("nicolasjensen")
@@ -58,7 +58,7 @@ XboxLive.profile("nicolasjensen")
 }
 ```
 
-Retrieving somebody's games
+### Games
 
 ```ruby
 XboxLive.games("nicolasjensen")
@@ -109,7 +109,7 @@ XboxLive.games("nicolasjensen")
 }
 ```
 	
-Retrieving somebody's achievements
+### Achievements
 
 ```ruby
 # XboxLive.achievements(gamertag, title_id)
@@ -160,7 +160,7 @@ XboxLive.achievements("nicolasjensen", "1161890128")
 }
 ```
 	
-Retriving somebody's friends
+### Friends
 
 ```ruby
 XboxLive.friends("nicolasjensen")
