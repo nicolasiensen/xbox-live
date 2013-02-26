@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/nicolasiensen/xbox-live.png)](https://codeclimate.com/github/nicolasiensen/xbox-live)
+[![Dependency Status](https://gemnasium.com/nicolasiensen/xbox-live.png)](https://gemnasium.com/nicolasiensen/xbox-live)
+[![Gem Version](https://badge.fury.io/rb/xbox-live.png)](http://badge.fury.io/rb/xbox-live)
+
 # XboxLive
 
 Welcome to the next most hot gem in the world! It was built on the top of [XboxLeaders](http://www.xboxleaders.com/) API and offers an interface for profile, games, achievements and friends data of the Xbox Live. Feel free to use, copy and change.
