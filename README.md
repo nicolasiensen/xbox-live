@@ -1,4 +1,5 @@
 [![Code Climate](https://codeclimate.com/github/nicolasiensen/xbox-live.png)](https://codeclimate.com/github/nicolasiensen/xbox-live)
+[![Build Status](https://travis-ci.org/nicolasiensen/xbox-live.png?branch=master)](https://travis-ci.org/nicolasiensen/xbox-live)
 [![Dependency Status](https://gemnasium.com/nicolasiensen/xbox-live.png)](https://gemnasium.com/nicolasiensen/xbox-live)
 [![Gem Version](https://badge.fury.io/rb/xbox-live.png)](http://badge.fury.io/rb/xbox-live)
 
