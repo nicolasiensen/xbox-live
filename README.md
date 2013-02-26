@@ -1,4 +1,5 @@
 [![Code Climate](https://codeclimate.com/github/nicolasiensen/xbox-live.png)](https://codeclimate.com/github/nicolasiensen/xbox-live)
+[![Dependency Status](https://gemnasium.com/nicolasiensen/mylive.png)](https://gemnasium.com/nicolasiensen/mylive)
 
 # XboxLive
 
